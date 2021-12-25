@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ZeerApp</string>
+    <string name="about">About</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="reload">ReLoad</string>
+    <string name="next">Next</string>
+    <string name="contact">Contact Us</string>
+    <string name="email">Enter your Email</string>
+    <string name="backHome">Home</string>
+    <string name="screen">screen</string>
+    <string name="app">App</string>
+    <string name="vergen">1.0.0</string>
+</resources>

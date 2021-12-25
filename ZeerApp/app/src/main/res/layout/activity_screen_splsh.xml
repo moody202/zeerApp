@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EEEE"
+    android:orientation="vertical"
+    tools:context=".screen_splsh">
+
+    <ImageView
+        android:id="@+id/screen"
+        android:layout_width="200dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/screen"
+        app:srcCompat="@drawable/screen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFCFC"
+            android:text="@string/app"
+            android:textColor="#070707"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/vergen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/vergen"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
